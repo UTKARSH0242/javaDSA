@@ -8,7 +8,7 @@ public class greaterAverage {
         System.out.println("Enter The number of element");
         int n = sc.nextInt();
         int[] marks = new int[n];
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < n; i++) {
             System.out.println("Enter the " + i + " th number");
             marks[i] = sc.nextInt();
@@ -18,7 +18,7 @@ public class greaterAverage {
             sum += marks[i];
         }
         System.out.println(sum);
-        double averageMarks = sum / n;
+        double averageMarks = (sum / n);
         for (int j = 0; j < n; j++) {
             if (marks[j] > averageMarks) {
                 System.out.println(marks[j]);
