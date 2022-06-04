@@ -1,5 +1,6 @@
 package DayTwo;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Arrays {
@@ -9,6 +10,7 @@ public class Arrays {
         int[] ageList = new int[n];
         for (int i = 0; i<n; i++){
             ageList[i] = sc.nextInt();
+
         }
         for (int i = 0; i<n; i++){
             System.out.println("Age of roll no "+ (i +1) +" is "+ ageList[i]);
