@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Patterns/ZeroOneTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/ButterflyPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/DiamondPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/NumberPyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/PalindromicPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Patterns/SolidRhombus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +44,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ZeroOneTriangle">
-    <configuration name="FloydsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.FloydsTriangle" />
+  <component name="RunManager" selected="Application.DiamondPattern">
+    <configuration name="ButterflyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.ButterflyPattern" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertedRotatedHalfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.InvertedRotatedHalfPyramid" />
+    <configuration name="DiamondPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.DiamondPattern" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Patterns.Pattern3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.Pattern3" />
+    <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.NumberPyramid" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.ZeroOneTriangle" />
+    <configuration name="PalindromicPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.PalindromicPattern" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="invertedPyramidWithNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Patterns.invertedPyramidWithNumber" />
+    <configuration name="SolidRhombus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Patterns.SolidRhombus" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroOneTriangle" />
-        <item itemvalue="Application.FloydsTriangle" />
-        <item itemvalue="Application.invertedPyramidWithNumber" />
-        <item itemvalue="Application.Patterns.Pattern3" />
-        <item itemvalue="Application.Patterns.InvertedRotatedHalfPyramid" />
+        <item itemvalue="Application.DiamondPattern" />
+        <item itemvalue="Application.PalindromicPattern" />
+        <item itemvalue="Application.NumberPyramid" />
+        <item itemvalue="Application.ButterflyPattern" />
+        <item itemvalue="Application.SolidRhombus" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654446239198</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <created>1654446662579</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1654446662579</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
