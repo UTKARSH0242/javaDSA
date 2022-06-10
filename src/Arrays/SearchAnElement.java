@@ -7,6 +7,8 @@ public class SearchAnElement {
         int key = 6;
         int result = -1;
 
+        // search for key
+
         for (int i = 0; i <a.length ; i++) {
             if(a[i] == key){
                 result = i;
@@ -22,3 +24,5 @@ public class SearchAnElement {
         }
     }
 }
+
+//time complexity = O(n)
