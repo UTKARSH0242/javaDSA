@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
       <change afterPath="$PROJECT_DIR$/src/Arrays/removeDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/smallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arrays/thirdLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/sortedArrayOrNot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,21 +41,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.thirdLargestElement">
-    <configuration name="deleteAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.deleteAnElement" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="largestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.sortedArrayOrNot">
+    <configuration name="Arrays.largestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.largestElement" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -69,7 +55,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays.secondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.secondLargestElement" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -82,7 +68,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays.smallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.smallestElement" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -95,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirdLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Arrays.thirdLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.thirdLargestElement" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sortedArrayOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.sortedArrayOrNot" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.thirdLargestElement" />
-        <item itemvalue="Application.smallestElement" />
-        <item itemvalue="Application.largestElement" />
-        <item itemvalue="Application.secondLargestElement" />
-        <item itemvalue="Application.deleteAnElement" />
+        <item itemvalue="Application.sortedArrayOrNot" />
+        <item itemvalue="Application.Arrays.thirdLargestElement" />
+        <item itemvalue="Application.Arrays.smallestElement" />
+        <item itemvalue="Application.Arrays.largestElement" />
+        <item itemvalue="Application.Arrays.secondLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654922480489</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <created>1654935643317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1654935643317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
