@@ -1,5 +1,6 @@
 package Arrays;
 
+
 public class thirdLargestElement {
     public static int thirdLargest(int a[]){
         if (a.length < 3) return -2;
@@ -18,20 +19,21 @@ public class thirdLargestElement {
                 secondLargest = i;
 
             } else if (a[i] > a[thirdLargest]) {
-                    thirdLargest = i;
-                }
+                thirdLargest = i;
             }
+        }
         return thirdLargest;
 
-        }
+    }
 
 
     public static void main(String[] args) {
-        
+
         int a [] = {2,3,7,8,4};
-        
+
         int index = thirdLargest(a);
         System.out.println(a[index]);
 
     }
 }
+
