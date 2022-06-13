@@ -1,4 +1,4 @@
-package Arrays;
+package Array1;
 
 public class sortedArrayOrNot {
     public static boolean sortedOrNot( int a[]) {

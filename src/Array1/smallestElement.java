@@ -1,4 +1,4 @@
-package Arrays;
+package Array1;
 
 public class smallestElement {
     public static int minOf(int a[]){

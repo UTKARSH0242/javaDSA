@@ -1,16 +1,16 @@
-package Arrays;
+package Array1;
 
 public class secondLargestElement {
-    public  static int secondLargest(int a[]){
+    public  static int secondLargest(int arr[]){
         int largest = 0;
         int secondLargest = -1;
-        for (int i = 1; i <a.length ; i++) {
-            if (a[i]> a[largest]){
+        for (int i = 1; i <arr.length ; i++) {
+            if (arr[i]> arr[largest]){
                 secondLargest = largest;
                 largest = i;
 
-            }else if (a[i]< a[largest]) {
-                if (secondLargest == -1 || a[i] > a[secondLargest]) {
+            }else if (arr[i]< arr[largest]) {
+                if (secondLargest == -1 || arr[i] > arr[secondLargest]) {
                     secondLargest = i;
                 }
             }
@@ -21,10 +21,10 @@ public class secondLargestElement {
     }
     public static void main(String[] args) {
 
-        int[] a = {2,1,4,6,5};
+        int[] arr= {12,35,1,10,34,1};
 //        int key = 6;
-        int index = secondLargest(a);
-        System.out.println(a[index]);
+        int index = secondLargest(arr);
+        System.out.println(arr[index]);
 
 
     }

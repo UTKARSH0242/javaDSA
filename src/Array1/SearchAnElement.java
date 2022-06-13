@@ -1,4 +1,4 @@
-package Arrays;
+package Array1;
 
 public class SearchAnElement {
     public static void main(String[] args) {

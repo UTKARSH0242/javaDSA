@@ -1,4 +1,4 @@
-package Arrays;
+package Array1;
 
 public class deleteAnElement {
     public static int delete(int a[], int key) {
