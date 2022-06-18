@@ -8,7 +8,7 @@ public class LeaderInAnArray {
         for (int i = a.length-1; i>=0; i--) {
             if (a[i] > largest){
                 largest = a[i];
-                System.out.print(a[i]+ " ");
+//                System.out.print(a[i]+ " ");
                 b[j++] = a[i];
             }
 
@@ -19,7 +19,7 @@ public class LeaderInAnArray {
         }
     }
     public static void main(String[] args) {
-        int[] a  = {2 ,7,6,4,1,3};
+        int[] a  = {16,17,4,3,5,2};
         leaderInAnArray(a);
 
     }

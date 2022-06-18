@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Recursion1/DummyFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion1/printNaturalNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/StockMaxProfit1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DummyFunction">
-    <configuration name="DummyFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion1.DummyFunction" />
+  <component name="RunManager" selected="Application.StockMaxProfit1">
+    <configuration name="LeaderInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array2.LeaderInAnArray" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion1.PrintNaturalNumber" />
+          <option name="PATTERN" value="Array2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockMaxProfit1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.StockMaxProfit1" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,22 +107,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="printNaturalNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion1.printNaturalNumber" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion1.PrintNaturalNumber" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockMaxProfit1" />
         <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.LeaderInAnArray" />
         <item itemvalue="Application.TrappingRainWater" />
         <item itemvalue="Application.SubArrayWithZeroSum" />
       </list>
@@ -264,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655312947673</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="commit">
+      <created>1655521022644</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1655521022644</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
