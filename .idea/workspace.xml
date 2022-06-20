@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/Array3/RotateAMatrix90.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Array3/TransposeOfAMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/TransposeOfAMatrix.java" afterDir="false" />
     </list>
@@ -43,7 +44,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TransposeOfAMatrix">
+  <component name="RunManager" selected="Application.RotateAMatrix90">
     <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPractice.LongestOnes" />
       <module name="javaDSA" />
@@ -57,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3.MajorityElement" />
+    <configuration name="MajorityElementBySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MajorityElementBySorting" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array3.*" />
+          <option name="PATTERN" value="ArrayPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MajorityElementBySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MajorityElementBySorting" />
+    <configuration name="RotateAMatrix90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3.RotateAMatrix90" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="PATTERN" value="Array3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateAMatrix90" />
         <item itemvalue="Application.TransposeOfAMatrix" />
         <item itemvalue="Kotlin.GreaterNumber" />
         <item itemvalue="Application.MajorityElementBySorting" />
         <item itemvalue="Application.LongestOnes" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655695821704</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="commit">
+      <created>1655708099715</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1655708099715</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

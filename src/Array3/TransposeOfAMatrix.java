@@ -34,7 +34,7 @@ public class TransposeOfAMatrix {
 				{7, 8, 9}
 		};
 
-printMatrix(a);
+printMatrix(a   );
 
 		transposeOfAMatrix(a);
 //        System.out.println(transposeOfAMatrix(a);
