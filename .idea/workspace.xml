@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/Array3/SearchInTwoDMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/SearchInTwoDMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array3/LargestSubArrayWithEqual0and1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/RepeatingElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayPractice/LongestOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayPractice/LongestOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,29 +37,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.SearchInTwoDMatrix">
-    <configuration name="MajorityElementBySorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MajorityElementBySorting" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotateAMatrix90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Application.LargestSubArrayWithEqual0and1">
+    <configuration name="Array3.RotateAMatrix90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array3.RotateAMatrix90" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -69,7 +59,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchInTwoDMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Array3.SearchInTwoDMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array3.SearchInTwoDMatrix" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -82,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeOfAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Array3.TransposeOfAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array3.TransposeOfAMatrix" />
       <module name="javaDSA" />
       <extension name="coverage">
@@ -95,20 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreaterNumber" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.GreaterNumber" />
+    <configuration name="LargestSubArrayWithEqual0and1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3.LargestSubArrayWithEqual0and1" />
       <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.RepeatingElement" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SearchInTwoDMatrix" />
-        <item itemvalue="Application.RotateAMatrix90" />
-        <item itemvalue="Application.TransposeOfAMatrix" />
-        <item itemvalue="Kotlin.GreaterNumber" />
-        <item itemvalue="Application.MajorityElementBySorting" />
+        <item itemvalue="Application.LargestSubArrayWithEqual0and1" />
+        <item itemvalue="Application.RepeatingElement" />
+        <item itemvalue="Application.Array3.SearchInTwoDMatrix" />
+        <item itemvalue="Application.Array3.RotateAMatrix90" />
+        <item itemvalue="Application.Array3.TransposeOfAMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655711350904</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="commit">
+      <created>1655711379394</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1655711379394</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
