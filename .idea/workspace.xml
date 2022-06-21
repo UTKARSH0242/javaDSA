@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Array3/LargestSubArrayWithEqual0and1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/RepeatingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion2/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RecursionPractice/PalindromeString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayPractice/LongestOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayPractice/LongestOnes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,35 +44,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LargestSubArrayWithEqual0and1">
-    <configuration name="Array3.RotateAMatrix90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3.RotateAMatrix90" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SumOfDigits">
     <configuration name="Array3.SearchInTwoDMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array3.SearchInTwoDMatrix" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Array3.TransposeOfAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array3.TransposeOfAMatrix" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -98,6 +71,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionPractice.PalindromeString" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RecursionPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RepeatingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayPractice.RepeatingElement" />
       <module name="javaDSA" />
@@ -111,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion2.SumOfDigits" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.PalindromeString" />
         <item itemvalue="Application.LargestSubArrayWithEqual0and1" />
         <item itemvalue="Application.RepeatingElement" />
         <item itemvalue="Application.Array3.SearchInTwoDMatrix" />
-        <item itemvalue="Application.Array3.RotateAMatrix90" />
-        <item itemvalue="Application.Array3.TransposeOfAMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655711379394</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="commit">
+      <created>1655724050905</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1655724050905</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
