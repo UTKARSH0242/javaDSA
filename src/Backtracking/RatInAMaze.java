@@ -3,8 +3,9 @@ package Backtracking;
 public class RatInAMaze {
     public static boolean ratInAMaze(int a[][] , boolean vis[][],int i , int j){
 //        Base Conditions
+        boolean b = false;
         if (i >= a.length || j >= a.length || a[i][j] == 0 || vis[i][j]){
-            return false;
+            return b;
         }
 //        Base condition successfully reached
         if (i == a.length-1 && j ==a.length-1) return true;
@@ -17,9 +18,9 @@ public class RatInAMaze {
 //        Check if path is possible from right
         if (ratInAMaze(a,vis,i, j+1)) return true;
 //        Mark this cell as unvisited and Backtrack
-        vis[i][j] = false;
+        vis[i][j] = b;
 //        Backtrack
-        return false;
+        return b;
 
 
     }
