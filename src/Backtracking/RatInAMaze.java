@@ -1,7 +1,7 @@
 package Backtracking;
 
 public class RatInAMaze {
-    public static boolean ratInAMaze(int a[][] , boolean vis[][],int i , int j){
+    public static boolean ratInAMaze(int[][] a, boolean[][] vis, int i , int j){
 //        Base Conditions
         if (i >= a.length || j >= a.length || a[i][j] == 0 || vis[i][j]){
             return false;
@@ -24,14 +24,14 @@ public class RatInAMaze {
 
     }
     public static void main(String[] args) {
-        int a[][] = {
+        int[][] a = {
                 {1, 1, 0, 1},
                 {1, 1, 1, 1},
                 {0, 0, 1, 0},
                 {1, 1, 1, 1},
 
         };
-        boolean vis [][] = new boolean[a.length][a.length];
+        boolean[][] vis = new boolean[a.length][a.length];
         boolean isPathPossible = ratInAMaze(a,vis,0,0);
         System.out.println(isPathPossible);
     }
