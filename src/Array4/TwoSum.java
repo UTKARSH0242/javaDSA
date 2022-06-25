@@ -1,7 +1,7 @@
 package Array4;
 
 public class TwoSum {
-    public static boolean twoSum(int a[], int sum){
+    public static boolean twoSum(int[] a, int sum){
         int l = 0;
         int r = a.length-1;
 
@@ -23,8 +23,7 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int a [] = {1,2,7,8,10,12};
-        int sum = 10;
+        int[] a = {1,2,7,8,10,12};
         System.out.println(twoSum(a,10));
     }
 }
