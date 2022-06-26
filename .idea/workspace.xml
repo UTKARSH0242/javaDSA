@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/Mathematics/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RecursionPractice/RemoveDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array4/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array4/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecursionPractice/PalindromeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecursionPractice/PalindromeString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array3/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/TrappingRainWater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656058003870</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="commit">
+      <created>1656150200072</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1656150200072</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
