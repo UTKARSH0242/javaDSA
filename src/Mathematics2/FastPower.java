@@ -13,3 +13,4 @@ public class FastPower {
         System.out.println(fastPower(3,4));
     }
 }
+// time complexity
