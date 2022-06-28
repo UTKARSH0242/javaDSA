@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/Mathematics2/SieveOfEratosthenes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mathematics2/FastPower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mathematics2/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics2/SieveOfEratosthenes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SieveOfEratosthenes">
-    <configuration name="PrimeEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics2.PrimeEfficient" />
+  <component name="RunManager" selected="Application.FastPower">
+    <configuration name="FastPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics2.FastPower" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNUmber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics2.PrimeNUmber" />
+    <configuration name="PrimeEfficient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mathematics2.PrimeEfficient" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FastPower" />
         <item itemvalue="Application.SieveOfEratosthenes" />
         <item itemvalue="Application.PrintAllDivisors" />
         <item itemvalue="Application.PrimeOptimal" />
         <item itemvalue="Application.PrimeEfficient" />
-        <item itemvalue="Application.PrimeNUmber" />
       </list>
     </recent_temporary>
   </component>

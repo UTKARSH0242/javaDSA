@@ -2,8 +2,6 @@ package Mathematics2;
 
 import java.util.Arrays;
 
-
-
 public class SieveOfEratosthenes {
     public static void printAllPrime(int n ){
         boolean[] isPrime = new boolean[n+1];
