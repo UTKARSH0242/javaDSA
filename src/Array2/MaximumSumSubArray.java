@@ -2,7 +2,7 @@ package Array2;
 
 public class MaximumSumSubArray {
     // Using Kadane's Algo
-    static int maximumSumSubArray(int a[]){
+    static int maximumSumSubArray(int[] a){
 
         int cSum = 0;
         int maxSum = Integer.MIN_VALUE;
@@ -17,7 +17,7 @@ public class MaximumSumSubArray {
     }
 
     public static void main(String[] args) {
-        int [] a = {-2,7,-6,-4,1,-3,8};
+        int [] a = {-2,1,-3,4,-1,2,1,-5,4};
         int answer = maximumSumSubArray(a);
         System.out.println(answer);
     }
