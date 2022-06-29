@@ -11,7 +11,7 @@ public class Power {
     }
     public static void main(String[] args) {
         int a = 3;
-        int b = 4;
+        int b = 1;
         System.out.println(power(a ,b));
         power(a,b);
 

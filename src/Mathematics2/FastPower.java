@@ -1,16 +1,28 @@
 package Mathematics2;
 
 public class FastPower {
-    static int fastPower(int a , int b){
-        if (b == 0) return 1;
-        int halfRes  = fastPower(a, b/2);
-        int fullRes = halfRes * halfRes;
-        if (b%2 != 0) fullRes = fullRes *a;
-        return fullRes;
+    public static double fastPower(double a, int b){
+        if(b == 0)
+            return 1;
+        else{
+            double res = fastPower(a, b/2);
+            if(b % 2 < 0)
+                return res * res / a;
+            else if(b % 2 > 0)
+                return res * res * a;
+            else
+                return res * res;
+        }
     }
+
     public static void main(String[] args) {
 
-        System.out.println(fastPower(3,4));
+
+
+        System.out.println(fastPower(2, -2));
+
     }
+
 }
-// time complexity
+
+
