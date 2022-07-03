@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/SplitArrayInThreeEqualSumSubArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BitManipulation2/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/LargestAreaInAnHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/LargestSubArrayWith0sand1s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/MaximumAreaInHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/MergeTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/RotateArrayByKSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array1/ReverseArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/ReverseArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array1/reverseTheGivenArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/reverseTheGivenArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArrayPractice/ContainDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayPractice/ContainDuplicate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,22 +52,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BitManipulation2.MainClass">
-    <configuration name="BitManipulation2.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation2.MainClass" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitManipulation2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementInMaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.ElementInMaximumSubArray" />
+  <component name="RunManager" selected="Application.LeaderInAnArray">
+    <configuration name="LargestSubArrayWith0sand1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.LargestSubArrayWith0sand1s" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -73,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation.MainClass" />
+    <configuration name="LargestSubArrayWithEqual0and1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array3.LargestSubArrayWithEqual0and1" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BitManipulation.*" />
+          <option name="PATTERN" value="Array3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array2.MaximumSumSubArray" />
+    <configuration name="LeaderInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array2.LeaderInAnArray" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitArrayInThreeEqualSumSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.SplitArrayInThreeEqualSumSubArrays" />
+    <configuration name="MergeTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MergeTwoArrays" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateArrayByKSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.RotateArrayByKSteps" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BitManipulation2.MainClass" />
-        <item itemvalue="Application.SplitArrayInThreeEqualSumSubArrays" />
-        <item itemvalue="Application.ElementInMaximumSubArray" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.MaximumSumSubArray" />
+        <item itemvalue="Application.LeaderInAnArray" />
+        <item itemvalue="Application.LargestSubArrayWithEqual0and1" />
+        <item itemvalue="Application.RotateArrayByKSteps" />
+        <item itemvalue="Application.MergeTwoArrays" />
+        <item itemvalue="Application.LargestSubArrayWith0sand1s" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00009" summary="commit">
-      <created>1654423501804</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1654423501804</updated>
     </task>
     <task id="LOCAL-00010" summary="commit">
       <created>1654446239197</created>
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656612073977</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Java is Fun">
+      <created>1656697923154</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1656697923156</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
