@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/LargestAreaInAnHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/LargestSubArrayWith0sand1s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/MaximumAreaInHistogram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/MergeTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/RotateArrayByKSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/SubArraySumEqualToK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array1/ReverseArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/ReverseArray2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array1/reverseTheGivenArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/reverseTheGivenArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array2/LeaderInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayPractice/ContainDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayPractice/ContainDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array1/ReplaceEveryElementWithTheGreatestElementOnRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/ReplaceEveryElementWithTheGreatestElementOnRight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +45,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeaderInAnArray">
-    <configuration name="LargestSubArrayWith0sand1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.LargestSubArrayWith0sand1s" />
+  <component name="RunManager" selected="Application.SubArraySumEqualToK">
+    <configuration name="ElementInMaximumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.ElementInMaximumSubArray" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -92,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MergeTwoArrays" />
+    <configuration name="ReplaceEveryElementWithTheGreatestElementOnRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array1.ReplaceEveryElementWithTheGreatestElementOnRight" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="PATTERN" value="Array1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArrayByKSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.RotateArrayByKSteps" />
+    <configuration name="SubArraySumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.SubArraySumEqualToK" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubArraySumEqualToK" />
+        <item itemvalue="Application.ReplaceEveryElementWithTheGreatestElementOnRight" />
         <item itemvalue="Application.LeaderInAnArray" />
+        <item itemvalue="Application.ElementInMaximumSubArray" />
         <item itemvalue="Application.LargestSubArrayWithEqual0and1" />
-        <item itemvalue="Application.RotateArrayByKSteps" />
-        <item itemvalue="Application.MergeTwoArrays" />
-        <item itemvalue="Application.LargestSubArrayWith0sand1s" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00010" summary="commit">
-      <created>1654446239197</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1654446239198</updated>
     </task>
     <task id="LOCAL-00011" summary="commit">
       <created>1654446662579</created>
@@ -480,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656697923156</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Java is Fun">
+      <created>1656851870988</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1656851870992</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
