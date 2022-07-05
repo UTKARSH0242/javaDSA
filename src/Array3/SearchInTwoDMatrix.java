@@ -14,7 +14,7 @@ public class SearchInTwoDMatrix {
             } else {
                 cols--;
             }
-        }
+        }  
         return false;
     }
     public static void main(String[] args) {

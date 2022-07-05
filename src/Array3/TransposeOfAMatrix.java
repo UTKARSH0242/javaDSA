@@ -3,17 +3,17 @@ package Array3;
 import java.util.Scanner;
 
 public class TransposeOfAMatrix {
-    static void printMatrix(int a[][]) {
+    static void printMatrix(int[][] a) {
         int n = a.length;
-        for(int i = 0; i<n; i++) {
-            for(int j = 0; j<n; j++) {
-                System.out.print(a[i][j] +" ");
+        for (int[] ints : a) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(ints[j] + " ");
             }
             System.out.println();
         }
     }
 
-    static void transposeOfAMatrix(int a[][]) {
+    static void transposeOfAMatrix(int[][] a) {
         int n = a.length;
 
         for(int i = 0; i<n; i++) {
@@ -28,7 +28,7 @@ public class TransposeOfAMatrix {
     public static void main(String[] args) {
 
 
-        int a[][] = {
+        int[][] a = {
 				{1, 2, 3},
 				{4, 5, 6},
 				{7, 8, 9}
