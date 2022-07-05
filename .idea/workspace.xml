@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/Strings/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/CheckSubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/LeftMostCharThatRepeats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseByWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/LengthOfLastWord.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array3/SearchInTwoDMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/SearchInTwoDMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array3/SubArrayWithZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/SubArrayWithZeroSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array3/TransposeOfAMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/TransposeOfAMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeftMostCharThatRepeats">
+  <component name="RunManager" selected="Application.LengthOfLastWord">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.Anagram" />
       <module name="javaDSA" />
@@ -90,6 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LengthOfLastWord" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RotateAMatrix90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Array3.RotateAMatrix90" />
       <module name="javaDSA" />
@@ -103,26 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySumEqualToK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.SubArraySumEqualToK" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.LeftMostCharThatRepeats" />
         <item itemvalue="Application.CheckSubSequence" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.RotateAMatrix90" />
-        <item itemvalue="Application.SubArraySumEqualToK" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +128,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00012" summary="commit">
-      <created>1654780200933</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1654780200933</updated>
     </task>
     <task id="LOCAL-00013" summary="commit">
       <created>1654862487015</created>
@@ -478,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656916845703</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Java is Fun">
+      <created>1657022594297</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1657022594300</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
