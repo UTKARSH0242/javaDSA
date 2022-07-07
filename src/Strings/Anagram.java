@@ -11,7 +11,9 @@ public class Anagram {
             a[str2.charAt(i)]--;
 
         }
-        for (int e:a) if (e != 0) return false;
+        for (int e : a) {
+            if (e != 0) return false;
+        }
         return true;
     }
     public static void main(String[] args) {

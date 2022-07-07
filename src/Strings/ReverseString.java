@@ -11,7 +11,7 @@ public class ReverseString {
         return newStr.toString();
     }
     public static void main(String[] args) {
-        String str = "Hurrah!";
+        String str = "Utkarsh Dubey";
         System.out.println(reverseString(str));
 
     }

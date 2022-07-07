@@ -4,7 +4,7 @@ import static Array3.TransposeOfAMatrix.printMatrix;
 import static Array3.TransposeOfAMatrix.transposeOfAMatrix;
 
 public class RotateAMatrix90 {
-     static void rotateMatrix(int a[][]){
+     static void rotateMatrix(int[][] a){
          transposeOfAMatrix(a);
          int n = a.length;
          for (int i = 0; i < n; i++) {
@@ -20,7 +20,7 @@ public class RotateAMatrix90 {
 
     public static void main(String[] args) {
 
-        int a[][] = {
+        int[][] a = {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}
@@ -31,7 +31,7 @@ public class RotateAMatrix90 {
 //        transposeOfAMatrix(a);
 //        System.out.println(transposeOfAMatrix(a);
         rotateMatrix(a);
-        printMatrix(a);
+//        printMatrix(a);
 
     }
 
