@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/Strings/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String2/CheckIfStringIsRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/String2/PatternMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/LengthOfLastWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/ReverseByWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/ReverseByWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/ReverseString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,33 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ReverseString">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.Anagram" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.CheckSubSequence" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseByWords">
     <configuration name="LeftMostCharThatRepeats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.LeftMostCharThatRepeats" />
       <module name="javaDSA" />
@@ -98,6 +74,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String2.PatternMatching" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="String2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseByWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseByWords" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strings.ReverseString" />
       <module name="javaDSA" />
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseByWords" />
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.LeftMostCharThatRepeats" />
-        <item itemvalue="Application.CheckSubSequence" />
-        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00014" summary="commit">
-      <created>1654922480489</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1654922480489</updated>
     </task>
     <task id="LOCAL-00015" summary="commit">
       <created>1654935643317</created>
@@ -473,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657023417134</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Java is Fun">
+      <created>1657029035971</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1657029035971</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
