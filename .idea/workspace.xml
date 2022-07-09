@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
+      <change afterPath="$PROJECT_DIR$/src/Sorting1/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array3/RotateAMatrix90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/RotateAMatrix90.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mathematics/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mathematics/SquareRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/ReverseByWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/ReverseByWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Strings/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Strings/LengthOfLastWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strings/LengthOfLastWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +45,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SquareRoot">
-    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String2.PatternMatching" />
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting1.BubbleSort" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String2.*" />
+          <option name="PATTERN" value="Sorting1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseByWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseByWords" />
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.LengthOfLastWord" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseString" />
+    <configuration name="ReverseByWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.ReverseByWords" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -116,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.RotateAMatrix90" />
         <item itemvalue="Application.ReverseByWords" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.PatternMatching" />
       </list>
     </recent_temporary>
   </component>
@@ -132,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00016" summary="commit">
-      <created>1654937689045</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1654937689045</updated>
     </task>
     <task id="LOCAL-00017" summary="commit">
       <created>1655049487609</created>
@@ -476,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657163212422</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Java is Fun">
+      <created>1657211977874</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1657211977875</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
