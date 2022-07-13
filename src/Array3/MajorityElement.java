@@ -20,8 +20,9 @@ public class MajorityElement {
 
         }
         int finalCount = 0;
-        for (int e: a) {
-            if(e == curElement){
+        for (int i = 0; i < a.length; i++) {
+            int e = a[i];
+            if (e == curElement) {
                 finalCount++;
             }
 
