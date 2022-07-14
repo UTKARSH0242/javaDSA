@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting1/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting1/IntersectionOfTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sorting1/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/SumOfMaxAndMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/LeftOccurence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array3/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sorting1/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting1/BubbleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindKey">
+  <component name="RunManager" selected="Application.SumOfMaxAndMin">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting1.BubbleSort" />
       <module name="javaDSA" />
@@ -76,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.LengthOfLastWord" />
+    <configuration name="LeftOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.LeftOccurence" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mathematics.SquareRoot" />
+    <configuration name="SumOfMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.SumOfMaxAndMin" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Mathematics.*" />
+          <option name="PATTERN" value="ArrayPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOfMaxAndMin" />
+        <item itemvalue="Application.LeftOccurence" />
         <item itemvalue="Application.FindKey" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.SquareRoot" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +129,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00018" summary="commit">
-      <created>1655132403232</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1655132403232</updated>
     </task>
     <task id="LOCAL-00019" summary="commit">
       <created>1655308799729</created>
@@ -477,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657383087033</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Java is Fun">
+      <created>1657728230895</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1657728230897</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
