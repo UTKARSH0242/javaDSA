@@ -1,7 +1,7 @@
 package BinarySearch;
 
-public class LeftOccurence {
-    static int leftOccurence(int [] arr, int key) {
+public class LeftOccurrence {
+    static int leftOccurrence(int [] arr, int key) {
         int l = 0;
         int r = arr.length - 1;
         int ans = -1;
@@ -18,7 +18,7 @@ public class LeftOccurence {
     }
     public static void main(String[] args) {
         int [] arr = {1,2,4,4,4,5,9,9,9,11,11,11,14};
-        int key = 0;
-            System.out.println(leftOccurence(arr, key));
+        int key = 9;
+            System.out.println(leftOccurrence(arr, key));
     }
 }
