@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/RightOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedAndRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/CountNumberOfOccurrence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearch/LeftOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/LeftOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/LeftOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/LeftOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/RightOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/RightOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedAndRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch/SearchInSortedAndRotatedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +47,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LeftOccurrence">
+  <component name="RunManager" selected="Application.SearchInSortedAndRotatedArray">
     <configuration name="BinarySearch.FindKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch.FindKey" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountNumberOfOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.CountNumberOfOccurrence" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
@@ -86,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting1.SelectionSort" />
+    <configuration name="SearchInSortedAndRotatedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.SearchInSortedAndRotatedArray" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumOfMaxAndMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.SumOfMaxAndMin" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchInSortedAndRotatedArray" />
+        <item itemvalue="Application.CountNumberOfOccurrence" />
         <item itemvalue="Application.LeftOccurrence" />
         <item itemvalue="Application.RightOccurrence" />
         <item itemvalue="Application.BinarySearch.FindKey" />
-        <item itemvalue="Application.SumOfMaxAndMin" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +131,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00019" summary="commit">
-      <created>1655308799729</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1655308799729</updated>
     </task>
     <task id="LOCAL-00020" summary="commit">
       <created>1655312947673</created>
@@ -474,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657728230897</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Java is Fun">
+      <created>1657872187101</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1657872187101</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
