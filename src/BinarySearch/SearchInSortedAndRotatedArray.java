@@ -7,7 +7,7 @@ public class SearchInSortedAndRotatedArray {
         while (l<=r){
             int mid = l + (r-l)/2;
             if (arr[mid] == key ) return mid;
-            if (arr[l] < arr[mid]){ // left part sorted
+            if (arr[l] <= arr[mid]){ // left part sorted
                 if (key>= arr[l] && key< arr[mid]){ // left side present
                     r = mid-1;
                 }else { // right side present
