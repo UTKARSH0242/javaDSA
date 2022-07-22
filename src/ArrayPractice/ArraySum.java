@@ -4,7 +4,7 @@ public class ArraySum {
     static int simpleArraysSum(int[] arr) {
         int sum = 0;
         for (int j : arr) {
-//            sum = 0;
+            //            sum = 0;
             sum += j;
 //            return sum;
 

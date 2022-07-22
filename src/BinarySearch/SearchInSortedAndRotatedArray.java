@@ -2,22 +2,22 @@ package BinarySearch;
 
 public class SearchInSortedAndRotatedArray {
     static int searchInSortedAndRotatedArray(int [] arr, int key){
-        int l = 0;
-        int r = arr.length-1;
-        while (l<=r){
-            int mid = l + (r-l)/2;
+        int left = 0;
+        int right = arr.length-1;
+        while (left<=right){
+            int mid = left + (right-left)/2;
             if (arr[mid] == key ) return mid;
-            if (arr[l] <= arr[mid]){ // left part sorted
-                if (key>= arr[l] && key< arr[mid]){ // left side present
-                    r = mid-1;
+            if (arr[left] <= arr[mid]){ // left part sorted
+                if (key>= arr[left] && key< arr[mid]){ // left side present
+                    right = mid-1;
                 }else { // right side present
-                    l = mid +1;
+                    left = mid +1;
                 }
             }else{ // right part sorted
-                if (key>arr[mid] && key<= arr[r]){ //right side present
-                    l =  mid+1;
+                if (key>arr[mid] && key<= arr[right]){ //right side present
+                    left =  mid+1;
                 }else{ // left side present
-                    r = mid-1;
+                    right = mid-1;
                 }
 
 
