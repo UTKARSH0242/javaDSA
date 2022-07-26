@@ -17,8 +17,8 @@ public class LengthOfLastWord {
 
     }
     public static void main(String[] args) {
-//        String str = "I am boss of this company";
-        String str = "hkrrtbxwkabeihgcdqew         ";
+        String str = "I am boss of this company";
+//        String str = "hkrrtbxwkabeihgcdqew         ";
         System.out.println(lengthOfTheLastWord(str));
     }
 }
