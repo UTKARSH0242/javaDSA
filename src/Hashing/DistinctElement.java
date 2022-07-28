@@ -6,7 +6,8 @@ import java.util.Set;
 public class DistinctElement {
     static int CountDistinctElement(int[] a){
         Set<Integer> set = new HashSet<>();
-        for (int e:a) {
+        for (int i = 0; i < a.length; i++) {
+            int e = a[i];
             set.add(e);
 
         }
