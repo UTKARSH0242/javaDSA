@@ -1,7 +1,7 @@
 package Array1;
 
 public class secondLargestElement {
-    public  static int secondLargest(int arr[]){
+    public  static int secondLargest(int[] arr){
         int largest = 0;
         int secondLargest = -1;
         for (int i = 1; i <arr.length ; i++) {

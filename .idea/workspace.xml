@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/HashingProblem2/LongestConsecutiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/EmptyTheTank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/UnionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblem/BookAllocationProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day1/Compare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashingPractice/Intersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashingPractice/Union.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HashingPractice/ZeroSumSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array1/secondLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array1/secondLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array3/LargestSubArrayWithEqual0and1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array3/LargestSubArrayWithEqual0and1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinarySearchProblem/WoodCutterProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchProblem/WoodCutterProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Hashing/DistinctElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hashing/DistinctElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashingProblem2/LongestSubArrayWIthZeroSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashingProblem2/LongestSubArrayWIthZeroSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/utkarsh/Downloads/sorting-visualization-master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/utkarsh/Downloads/sorting-visualization-master",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
-  <component name="RunManager" selected="Application.WoodCutterProblem">
-    <configuration name="LongestConsecutiveSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingProblem2.LongestConsecutiveSubsequence" />
+}]]></component>
+  <component name="RunManager" selected="Application.LongestSubArrayWIthZeroSum">
+    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1.Compare" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingProblem2.*" />
+          <option name="PATTERN" value="Day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PairWithGivenSumInUnsortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hashing.PairWithGivenSumInUnsortedArray" />
+    <configuration name="Union" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashingPractice.Union" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashing.*" />
+          <option name="PATTERN" value="HashingPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripletsSumEqualZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hashing.TripletsSumEqualZero" />
+    <configuration name="UnionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.UnionOfTwoArrays" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hashing.*" />
+          <option name="PATTERN" value="ArrayPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WoodCutterProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearchProblem.WoodCutterProblem" />
+    <configuration name="ZeroSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashingPractice.ZeroSumSubArray" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearchProblem.*" />
+          <option name="PATTERN" value="HashingPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WoodCutterProblem" />
-        <item itemvalue="Application.LongestConsecutiveSubsequence" />
         <item itemvalue="Application.LongestSubArrayWIthZeroSum" />
-        <item itemvalue="Application.PairWithGivenSumInUnsortedArray" />
-        <item itemvalue="Application.TripletsSumEqualZero" />
+        <item itemvalue="Application.UnionOfTwoArrays" />
+        <item itemvalue="Application.ZeroSumSubArray" />
+        <item itemvalue="Application.Compare" />
+        <item itemvalue="Application.Union" />
       </list>
     </recent_temporary>
   </component>
@@ -503,6 +512,10 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/javaDSA$PrimeOptimal.ic" NAME="PrimeOptimal Coverage Results" MODIFIED="1656393714492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -25,7 +25,7 @@ public class LongestSubArrayWIthZeroSum {
         return ans;
     }
     public static void main(String[] args) {
-        int [] arr = {1,1,5,-3,-4,3,4,1};
+        int [] arr = {15,-2,2,-8,1,7,10,23};
         System.out.println(longestSubArrayWIthZeroSum(arr));
 
     }

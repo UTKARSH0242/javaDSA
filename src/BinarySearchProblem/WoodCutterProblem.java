@@ -3,9 +3,9 @@ package BinarySearchProblem;
 public class WoodCutterProblem {
     static boolean isEnough(int [] tree , int k, int cut){
         int total = 0;
-        for(int i = 0; i<tree.length; i++){
-            if (tree[i] > cut){
-                total += (tree[i]-cut);
+        for (int j : tree) {
+            if (j > cut) {
+                total += (j - cut);
             }
 
         }
