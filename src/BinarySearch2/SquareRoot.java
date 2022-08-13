@@ -19,7 +19,7 @@ public class SquareRoot {
 
     }
     public static void main(String[] args) {
-        int n = 5;
+        int n = 676;
         System.out.println(sqrt(n));
 
     }

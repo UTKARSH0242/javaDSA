@@ -31,12 +31,12 @@ public class TraverseInLinkedList {
 
     }
 }
-//class Node<T>{
-//    T data;
-//    Node<T> next;
-//
-//    public Node(T data) {
-//        this.data = data;
-//
-//    }
-//}
+class Node<T>{
+    T data;
+    Node<T> next;
+
+    public Node(T data) {
+        this.data = data;
+
+    }
+}

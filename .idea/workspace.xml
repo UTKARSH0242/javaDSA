@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/HashingPractice/firstRepeatingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/InsertInLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/TraverseInLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day1/Amazon5August.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/MiddleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList2/DeleteMiddleOfLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList2/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList2/RecursiveReverseLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList2/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList3/MergeTwoSortedLL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QueueBasics/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QueueBasics/QueueUsingLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearch2/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearch2/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashingPractice/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashingPractice/Intersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/InsertInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/InsertInLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/TraverseInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/TraverseInLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +57,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InsertInLinkedList">
-    <configuration name="InsertInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.InsertInLinkedList" />
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="Amazon5August" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Day1.Amazon5August" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="Day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubArrayWIthZeroSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingProblem2.LongestSubArrayWIthZeroSum" />
+    <configuration name="DeleteMiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList2.DeleteMiddleOfLinkedList" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingProblem2.*" />
+          <option name="PATTERN" value="LinkedList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraverseInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.TraverseInLinkedList" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueBasics.MainClass" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.*" />
+          <option name="PATTERN" value="QueueBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.UnionOfTwoArrays" />
+    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList2.ReverseLinkedList" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="PATTERN" value="LinkedList2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="firstRepeatingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashingPractice.firstRepeatingElement" />
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch2.SquareRoot" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashingPractice.*" />
+          <option name="PATTERN" value="BinarySearch2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertInLinkedList" />
-        <item itemvalue="Application.TraverseInLinkedList" />
-        <item itemvalue="Application.firstRepeatingElement" />
-        <item itemvalue="Application.LongestSubArrayWIthZeroSum" />
-        <item itemvalue="Application.UnionOfTwoArrays" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.SquareRoot" />
+        <item itemvalue="Application.DeleteMiddleOfLinkedList" />
+        <item itemvalue="Application.Amazon5August" />
+        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +141,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00025" summary="commit">
-      <created>1655569400024</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1655569400024</updated>
     </task>
     <task id="LOCAL-00026" summary="commit">
       <created>1655632277420</created>
@@ -475,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659370860192</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Java is Fun">
+      <created>1659513615367</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1659513615368</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

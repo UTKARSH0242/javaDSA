@@ -3,21 +3,21 @@ package LinkedList;
 import static LinkedList.TraverseInLinkedList.printLL;
 
 public class InsertInLinkedList {
-    static void insertLL(int data, int position, Node<Integer> head){
+    static Node<Integer> insertLL(int data, int position, Node<Integer> head){
         Node<Integer> newNode = new Node<>(data);
         if (position == 0){
             newNode.next = head;
-            head = newNode;
-            return;
+            head = newNode; return head;
         }
-        Node<Integer> cur = head;
+        Node<Integer> prev = head;
         for (int i = 0; i <position-1 ; i++) {
-            cur = cur.next;
-            if (cur == null) return;
+            prev = prev.next;
+            if (prev == null) ;
 
         }
-        newNode.next = cur.next;
-        cur.next = newNode;
+        newNode.next = prev.next;
+        prev.next = newNode;
+        return head;
     }
     public static void main(String[] args) {
         Node<Integer> n1 = new Node<>(10);
@@ -34,18 +34,18 @@ public class InsertInLinkedList {
         n5.next = n6;
 
         printLL(n1);
-        insertLL(100,3, n1);
+        insertLL(100,0, n1);
         printLL(n1);
 
     }
 }
-class Node<T>{
-    T data;
-    Node<T> next;
-
-    public Node(T data) {
-        this.data = data;
-
-    }
-}
+//class Node<T>{
+//    T data;
+//    Node<T> next;
+//
+//    public Node(T data) {
+//        this.data = data;
+//
+//    }
+//}
 
