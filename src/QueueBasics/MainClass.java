@@ -4,21 +4,25 @@ public class MainClass {
     public static void main(String[] args) throws Exception {
 
 
-        QueueUsingLL qLL = new QueueUsingLL();
+//        QueueUsingLL qLL = new QueueUsingLL();
+        QueueUsingCircularArray q = new QueueUsingCircularArray(4);
 
-        qLL.enqueue(10);
-        qLL.enqueue(20);
-        qLL.enqueue(30);
-        qLL.enqueue(40);
+//        QueueUsingArray q = new QueueUsingArray(4);
+        q.enqueue(10);
+        q.enqueue(20);
+        q.enqueue(30);
+        q.enqueue(40);
 
-        System.out.println(qLL.getFront());
-        System.out.println(qLL.dequeue());
-        System.out.println(qLL.dequeue());
-        qLL.enqueue(50);
-        System.out.println(qLL.dequeue());
-        System.out.println(qLL.dequeue());
-        System.out.println(qLL.dequeue());
-//        System.out.println(qLL.dequeue());
+//        System.out.println(q.getFront());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        q.enqueue(50);
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+
+//        System.out.println(q.dequeue());
 
 
     }
