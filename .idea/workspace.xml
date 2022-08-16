@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblem/AggressiveCows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearchProblem/PaintersPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BitRevision/MainClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Day1/Amazon5August.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting1/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting1/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sorting1/IntersectionOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sorting1/IntersectionOfTwoSortedArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AggressiveCows">
+  <component name="RunManager" selected="Application.IntersectionOfTwoSortedArrays">
     <configuration name="AggressiveCows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearchProblem.AggressiveCows" />
       <module name="javaDSA" />
@@ -60,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Amazon5August" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day1.Amazon5August" />
+    <configuration name="BitRevision.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BitRevision.MainClass" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Day1.*" />
+          <option name="PATTERN" value="BitRevision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteMiddleOfLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList2.DeleteMiddleOfLinkedList" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting1.InsertionSort" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList2.*" />
+          <option name="PATTERN" value="Sorting1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueBasics.MainClass" />
+    <configuration name="IntersectionOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorting1.IntersectionOfTwoSortedArrays" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="QueueBasics.*" />
+          <option name="PATTERN" value="Sorting1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch2.SquareRoot" />
+    <configuration name="PaintersPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearchProblem.PaintersPartition" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinarySearch2.*" />
+          <option name="PATTERN" value="BinarySearchProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoSortedArrays" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BitRevision.MainClass" />
+        <item itemvalue="Application.PaintersPartition" />
         <item itemvalue="Application.AggressiveCows" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.SquareRoot" />
-        <item itemvalue="Application.DeleteMiddleOfLinkedList" />
-        <item itemvalue="Application.Amazon5August" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00029" summary="commit">
-      <created>1655646160116</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1655646160116</updated>
     </task>
     <task id="LOCAL-00030" summary="commit">
       <created>1655654193875</created>
@@ -474,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660398023306</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Java is Fun">
+      <created>1660451523196</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1660451523197</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
