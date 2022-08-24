@@ -1,9 +1,14 @@
 package BitManipulation2;
-
 import java.util.Arrays;
 
-
 public class MainClass {
+    public static int oneNonRepeatingElement(int [] a){
+        int ans = 0;
+        for(int e: a){
+            ans = ans ^e;
+        }
+        return ans;
+    }
     public static long reverse(long A) {
         long rev = 0;
 
@@ -31,9 +36,8 @@ public class MainClass {
 
         }
         int temp = xor;
-        int mask = xor & (~(xor -1));
-        for (int e:a
-             ) {
+        int mask = xor & (-xor); // (~(xor-1))
+        for (int e:a) {
             if ((mask & e) ==0){
                 temp = temp ^ e;
             }
@@ -48,10 +52,11 @@ public class MainClass {
         return res;
     }
     public static void main(String[] args) {
-        int [] a = {2,1,4,1,2,3,4,7};
-//        System.out.println(Arrays.toString(twoNonRepeatingElements(a)));
+        int [] a = {18,24,24,21,10,29,8,10,29,18};
+        System.out.println(Arrays.toString(twoNonRepeatingElements(a)));
 //        System.out.println( swapTwoBits(10,1,2));
-        System.out.println(reverse(3));
+//        System.out.println(oneNonRepeatingElement(a));
+//        System.out.println(reverse(3));
 
         
 
