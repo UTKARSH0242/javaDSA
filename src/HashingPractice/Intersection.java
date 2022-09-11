@@ -7,11 +7,11 @@ import java.util.Set;
 
 
 public class Intersection {
-    static int[] intersection(int[] num1, int[] num2) {
+    static int[] intersection(int[] a, int[] b) {
         Set<Integer> set = new HashSet<>();
-        for (int e : num1) set.add(e);
+        for (int e : a) set.add(e);
         Set<Integer> set2 = new HashSet<>();
-        for (int e : num2) set2.add(e);
+        for (int e : b) set2.add(e);
 
         set.retainAll(set2);
         int[] ans = new int[set.size()];

@@ -25,6 +25,12 @@ public class ImplementStackUsingArray {
         if(top == -1) throw new Exception(("Stack is Empty"));
         return a[top];
     }
+    boolean isEmpty(){
+        return top == -1;
+    }
+    int size(){
+        return top+1;
+    }
 
 }
 
