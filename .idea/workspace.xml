@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="DSA Course">
-      <change afterPath="$PROJECT_DIR$/src/Array1/xyz.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="DSA Course" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
