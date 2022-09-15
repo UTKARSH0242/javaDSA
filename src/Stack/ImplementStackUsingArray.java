@@ -1,7 +1,7 @@
 package Stack;
 
 public class ImplementStackUsingArray {
-    int a[];
+    int[] a;
     int capacity;
     int top;
 

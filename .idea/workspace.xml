@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d982755-dff1-4988-a763-a281d775a9d7" name="Changes" comment="Java is Fun">
-      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/MoveAllNegativeAtLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayPractice/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/MaxAreaInAHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/ParenthesisMatchingProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stack/previousSmaller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashingPractice/Intersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashingPractice/Intersection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stack/ImplementStackUsingArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/ImplementStackUsingArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/ImplementStackUsingLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/ImplementStackUsingLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/MainClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +53,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MoveAllNegativeAtLast">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryTreeBasics.BinaryTree" />
+  <component name="RunManager" selected="Application.Fibonacci">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Fibonacci" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BinaryTreeBasics.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,25 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPositionOfSetBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitRevision.FindPositionOfSetBit" />
-      <module name="javaDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BitRevision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveAllNegativeAtLast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayPractice.MoveAllNegativeAtLast" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayPractice.NextGreaterElement" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArrayPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParenthesisMatchingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.ParenthesisMatchingProblem" />
+      <module name="javaDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="secondLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array1.secondLargestElement" />
+    <configuration name="previousSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.previousSmaller" />
       <module name="javaDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array1.*" />
+          <option name="PATTERN" value="Stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MoveAllNegativeAtLast" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.NextGreaterElement" />
+        <item itemvalue="Application.previousSmaller" />
+        <item itemvalue="Application.ParenthesisMatchingProblem" />
         <item itemvalue="Application.Stack.MainClass" />
-        <item itemvalue="Application.secondLargestElement" />
-        <item itemvalue="Application.BinaryTree" />
-        <item itemvalue="Application.FindPositionOfSetBit" />
       </list>
     </recent_temporary>
   </component>
@@ -131,13 +137,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654186332669</updated>
-    </task>
-    <task id="LOCAL-00032" summary="commit">
-      <created>1655695821704</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1655695821704</updated>
     </task>
     <task id="LOCAL-00033" summary="commit">
       <created>1655708099715</created>
@@ -475,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662279734554</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Java is Fun">
+      <created>1662871527836</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1662871527837</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
